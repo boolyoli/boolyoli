@@ -2,73 +2,73 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6VztUXybowl":
+      case "5uYWJ7HCD1c":
         Script1();
         break;
-      case "5r8shp7EltL":
+      case "5ZK0QJ4whN5":
         Script2();
         break;
-      case "6U5QGprPbKw":
+      case "6aMq1ahhdQD":
         Script3();
         break;
-      case "5rbdGj7Hvr0":
+      case "6hxcGgqDMDr":
         Script4();
         break;
-      case "5rRr0ZBVVZW":
+      case "5ZbDcCt7OtZ":
         Script5();
         break;
-      case "6QS1Ek897mq":
+      case "5m2oOz4DjVw":
         Script6();
         break;
-      case "5bQMroedRyp":
+      case "61vnkth4496":
         Script7();
         break;
-      case "6WHlavoXtZ6":
+      case "6oNDwSDwgVF":
         Script8();
         break;
-      case "5vvfU0pzDxE":
+      case "5iVe8P9ikq0":
         Script9();
         break;
-      case "66TQmh8b5Gx":
+      case "6VKRUcUg1wS":
         Script10();
         break;
-      case "6InQEXft3Ub":
+      case "6OCduGZ290M":
         Script11();
         break;
-      case "6PrOvEb3KQJ":
+      case "6NLf1cdeIzq":
         Script12();
         break;
-      case "5ySsvysnNEP":
+      case "6gPuDv1loE1":
         Script13();
         break;
-      case "5vbAFWSQKbB":
+      case "6e1j8hXrbJt":
         Script14();
         break;
-      case "5o16ugLHTuq":
+      case "5alWK9jdOBt":
         Script15();
         break;
-      case "6UKTYNpiOOf":
+      case "661lKwQq79j":
         Script16();
         break;
-      case "6SCdVwJlCPE":
+      case "5xVo7n1Mk4W":
         Script17();
         break;
-      case "6pQAzNP0at2":
+      case "6fFYZxHWQ2l":
         Script18();
         break;
-      case "5lFBKCrlpgm":
+      case "5qAUNJwppcg":
         Script19();
         break;
-      case "6AZGrSjpNoF":
+      case "6Pfm0qPLrjV":
         Script20();
         break;
-      case "61gv7W7V2tn":
+      case "6eSpacj8K8T":
         Script21();
         break;
-      case "6GGWicYDAjY":
+      case "5gC2xExKjqI":
         Script22();
         break;
-      case "6ZBavuugks2":
+      case "6E6erYw4UNA":
         Script23();
         break;
   }
@@ -230,9 +230,11 @@ player.SetVar("SizeOfRoom", ss);
 function Script11()
 {
   player = GetPlayer();
-var x = String(player.GetVar("SizeOfRoom"))+'0';
-var ss = Number(x);
+var x = String(player.GetVar("SizeOfRoom"));
+var s = x.slice(0, -1);
+var ss = Number(s);
 player.SetVar("SizeOfRoom", ss);
+
 
 
 }
@@ -240,11 +242,9 @@ player.SetVar("SizeOfRoom", ss);
 function Script12()
 {
   player = GetPlayer();
-var x = String(player.GetVar("SizeOfRoom"));
-var s = x.slice(0, -1);
-var ss = Number(s);
+var x = String(player.GetVar("SizeOfRoom"))+'0';
+var ss = Number(x);
 player.SetVar("SizeOfRoom", ss);
-
 
 
 }
@@ -342,9 +342,11 @@ player.SetVar("CountOfRooms", ss);
 function Script22()
 {
   player = GetPlayer();
-var x = String(player.GetVar("CountOfRooms"))+'0';
-var ss = Number(x);
+var x = String(player.GetVar("CountOfRooms"));
+var s = x.slice(0, -1);
+var ss = Number(s);
 player.SetVar("CountOfRooms", ss);
+
 
 
 }
@@ -352,11 +354,9 @@ player.SetVar("CountOfRooms", ss);
 function Script23()
 {
   player = GetPlayer();
-var x = String(player.GetVar("CountOfRooms"));
-var s = x.slice(0, -1);
-var ss = Number(s);
+var x = String(player.GetVar("CountOfRooms"))+'0';
+var ss = Number(x);
 player.SetVar("CountOfRooms", ss);
-
 
 
 }
