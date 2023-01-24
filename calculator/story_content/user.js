@@ -2,73 +2,73 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5y1fZvwCl65":
+      case "5e9ay8RowCe":
         Script1();
         break;
-      case "5zCVFzUdPms":
+      case "5i4YR26RgvK":
         Script2();
         break;
-      case "6VtJLGMFO3T":
+      case "5WupEXV0bGH":
         Script3();
         break;
-      case "6eUXMEpMvC1":
+      case "6ZK88k4Xwyv":
         Script4();
         break;
-      case "6LZqDTfPkMi":
+      case "6in1fz9FYd8":
         Script5();
         break;
-      case "5xiorCFz44Y":
+      case "687QcyOPsdT":
         Script6();
         break;
-      case "6j6czjO3xe4":
+      case "5hJjqVDaJ9z":
         Script7();
         break;
-      case "6emmDCBb7lt":
+      case "6LuQ4XXJXLI":
         Script8();
         break;
-      case "5ept8bruDNL":
+      case "6ha6Tl3kY3A":
         Script9();
         break;
-      case "6NSwEe5epzS":
+      case "5nKTA9rCLfJ":
         Script10();
         break;
-      case "5g3pZd9tLc2":
+      case "5paJC4yr2R8":
         Script11();
         break;
-      case "6SikzdpGCYN":
+      case "5aQbP7nvYKU":
         Script12();
         break;
-      case "5yd3p1aCdQf":
+      case "6nZAjQZpEuk":
         Script13();
         break;
-      case "6RfMZz6uRSV":
+      case "5xcfk96cZpo":
         Script14();
         break;
-      case "6iur0YpY16Y":
+      case "6VMRXc36vpW":
         Script15();
         break;
-      case "5bUbmcp1YKA":
+      case "6qUIPogHKZC":
         Script16();
         break;
-      case "5eXe1nY3ecl":
+      case "6at65Ki8iyO":
         Script17();
         break;
-      case "6Cm5NWOY7VQ":
+      case "5mr1vVLNcfy":
         Script18();
         break;
-      case "5iU3F43t0My":
+      case "6CMFlYKetSD":
         Script19();
         break;
-      case "6JaRR6RE2Ly":
+      case "6ZiDZekqmHV":
         Script20();
         break;
-      case "5h0ZrCKwfpU":
+      case "6rW9yRYZLSP":
         Script21();
         break;
-      case "5a7yakcyl3x":
+      case "5wg2EEV7DlH":
         Script22();
         break;
-      case "5gMTy3SZXy5":
+      case "6bxWMOq6som":
         Script23();
         break;
   }
@@ -90,11 +90,11 @@ func2= player.GetVar("check2")*func2;
 
 if (y==1)
 { 
-var func3=1000;
+var func3=player.GetVar("check3")*1000;
 }
 else
 {
-var func3=500*y;
+var func3=player.GetVar("check3")*500*y;
 }
 
 var func4=20*x;
@@ -132,6 +132,7 @@ var totalcount=func2+func3+func4+func5+func6+func7+func8+func9+func10+func11+fun
 
 
 player.SetVar("TotalCost", totalcount);
+
 
 //alert("всего: " + totalcount + " руб.\nОбмер помещния = "+func2 +"\nРазработка концепции = " + func3 + "\nОбмерный план = " + func4 + "\nПлан перепланировки = " + func5 +"\nПлан расстановки мебели = " + func6 + "\nПлан демонтажных работ = " + func7 + "\nПлан монтажных работ = " + func8 +"\nПлан потолков = "+ func9 +"\nПлан полов = " + func10 + "\nПлан теплых полов = " + func11 + "\nПлан расположения светильников = " + func12 + "\nПлан расположения розеток и выключателей = " + func13 + "\nПлан расположения сантехнического оборудования = " + func14 + "\nЧертежи встроенной и корпусной мебели под заказ = " + func15+"\nДополнительные чертежи при необходимости = " + func16 +"\nРазвертки помещений с указанием материалов и декоративных элементов = "+ func17 +"\nКоллажи интерьера = "+ func18 + "\nСписок покупок = " + func19 + "\nКомплектация  = " + func20 +"\nСмета = " + func21 + "\n3д визуализация = " + func22+"\nАвторский надзор = " + func23 + "\nФинальная консультация по расстановке декора = " + func24);
 
