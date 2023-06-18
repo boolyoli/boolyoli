@@ -2,73 +2,73 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5e9ay8RowCe":
+      case "6L9bP89I2ea":
         Script1();
         break;
-      case "5i4YR26RgvK":
+      case "5vWUo5Otwkl":
         Script2();
         break;
-      case "5WupEXV0bGH":
+      case "5sIOV86d2Sh":
         Script3();
         break;
-      case "6ZK88k4Xwyv":
+      case "6GtaCVfG24L":
         Script4();
         break;
-      case "6in1fz9FYd8":
+      case "5aTmwOJlAxu":
         Script5();
         break;
-      case "687QcyOPsdT":
+      case "6Ey9oC699SW":
         Script6();
         break;
-      case "5hJjqVDaJ9z":
+      case "5imU4cCPhTG":
         Script7();
         break;
-      case "6LuQ4XXJXLI":
+      case "6ZigkGV7EkE":
         Script8();
         break;
-      case "6ha6Tl3kY3A":
+      case "6TtoNx3kppe":
         Script9();
         break;
-      case "5nKTA9rCLfJ":
+      case "62NINB45nRK":
         Script10();
         break;
-      case "5paJC4yr2R8":
+      case "6BU9suBqkCb":
         Script11();
         break;
-      case "5aQbP7nvYKU":
+      case "5rQieFT1wL6":
         Script12();
         break;
-      case "6nZAjQZpEuk":
+      case "6WoEoOI27B0":
         Script13();
         break;
-      case "5xcfk96cZpo":
+      case "6dybrjdt4tr":
         Script14();
         break;
-      case "6VMRXc36vpW":
+      case "5vwCJ9elFDI":
         Script15();
         break;
-      case "6qUIPogHKZC":
+      case "62n9cnhvSz3":
         Script16();
         break;
-      case "6at65Ki8iyO":
+      case "5bTx7QIeoTV":
         Script17();
         break;
-      case "5mr1vVLNcfy":
+      case "5mPgJkW4GpX":
         Script18();
         break;
-      case "6CMFlYKetSD":
+      case "6UedAULdqGo":
         Script19();
         break;
-      case "6ZiDZekqmHV":
+      case "6132A7Ykliy":
         Script20();
         break;
-      case "6rW9yRYZLSP":
+      case "6WgbMNelvu6":
         Script21();
         break;
-      case "5wg2EEV7DlH":
+      case "6DWnLoFmLeH":
         Script22();
         break;
-      case "6bxWMOq6som":
+      case "6UwA5ue0WGA":
         Script23();
         break;
   }
@@ -94,7 +94,7 @@ var func3=player.GetVar("check3")*1000;
 }
 else
 {
-var func3=player.GetVar("check3")*500*y;
+var func3=player.GetVar("check3")*1000*y;
 }
 
 var func4=20*x;
@@ -118,23 +118,19 @@ if (func17 < 1000)
 func17=1000;
 }
 
-var func18=player.GetVar("check18")*500*y;
-var func19=player.GetVar("check19")*100*x;
-var func20=player.GetVar("check20")*200*x;
+var func18=player.GetVar("check18")*1000*y;
+var func19=player.GetVar("check19")*100*x+player.GetVar("check19")*200*x;
 var func21=player.GetVar("check21")*100*x;
-var func22=player.GetVar("check22")*300*x;
-var func23=player.GetVar("check23")*8000;
+var func22=player.GetVar("check22")*400*x;
 
-var func24 = Math.ceil((50*x+500)/1000)*1000;
-func24= player.GetVar("check24")*func24;
 
-var totalcount=func2+func3+func4+func5+func6+func7+func8+func9+func10+func11+func12+func13+func14+func15+func16+func17+func18+func19+func20+func21+func22+func23+func24;
+var totalcount=func2+func3+func4+func5+func6+func7+func8+func9+func10+func11+func12+func13+func14+func15+func16+func17+func18+func19+func21+func22;
 
 
 player.SetVar("TotalCost", totalcount);
 
 
-//alert("всего: " + totalcount + " руб.\nОбмер помещния = "+func2 +"\nРазработка концепции = " + func3 + "\nОбмерный план = " + func4 + "\nПлан перепланировки = " + func5 +"\nПлан расстановки мебели = " + func6 + "\nПлан демонтажных работ = " + func7 + "\nПлан монтажных работ = " + func8 +"\nПлан потолков = "+ func9 +"\nПлан полов = " + func10 + "\nПлан теплых полов = " + func11 + "\nПлан расположения светильников = " + func12 + "\nПлан расположения розеток и выключателей = " + func13 + "\nПлан расположения сантехнического оборудования = " + func14 + "\nЧертежи встроенной и корпусной мебели под заказ = " + func15+"\nДополнительные чертежи при необходимости = " + func16 +"\nРазвертки помещений с указанием материалов и декоративных элементов = "+ func17 +"\nКоллажи интерьера = "+ func18 + "\nСписок покупок = " + func19 + "\nКомплектация  = " + func20 +"\nСмета = " + func21 + "\n3д визуализация = " + func22+"\nАвторский надзор = " + func23 + "\nФинальная консультация по расстановке декора = " + func24);
+//alert("всего: " + totalcount + " руб.\nОбмер помещния = "+func2 +"\nРазработка концепции = " + func3 + "\nОбмерный план = " + func4 + "\nПлан перепланировки = " + func5 +"\nПлан расстановки мебели = " + func6 + "\nПлан демонтажных работ = " + func7 + "\nПлан монтажных работ = " + func8 +"\nПлан потолков = "+ func9 +"\nПлан полов = " + func10 + "\nПлан теплых полов = " + func11 + "\nПлан расположения светильников = " + func12 + "\nПлан расположения розеток и выключателей = " + func13 + "\nПлан расположения сантехнического оборудования = " + func14 + "\nЧертежи встроенной и корпусной мебели под заказ = " + func15+"\nДополнительные чертежи при необходимости = " + func16 +"\nРазвертки помещений с указанием материалов и декоративных элементов = "+ func17 +"\nКоллажи интерьера = "+ func18 + "\nСписок покупок = " + func19 + "\nСмета = " + func21 + "\n3д визуализация = " + func22);
 
 }
 
